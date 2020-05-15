@@ -1,0 +1,119 @@
+.maint-zing-choise{
+	background-color: #fff; 
+	padding: 20px 10px;
+	box-shadow: 5px -5px 18px #ddd;
+	border-radius: 5px;
+	margin-top: 15px;
+
+}
+.zing-choise {
+	border-right: 1px solid #EEE;
+	padding-right: 10px;
+}
+.content{
+	position: relative;
+	
+}
+.content .action{
+	position: absolute;
+	top: 0px;
+	left: 5px;
+	width: 165px;
+	height: 170px;
+	border-radius: 5px;
+}
+.content .action i.add-library{
+	margin-left: 20px;
+}
+.content .action i.extend{
+	margin-right: 20px;
+}
+.content:hover .action{
+	opacity: 0.8;
+}
+.zing-choise{
+	display: flex;
+}
+.image-zing-choise img{
+	width:170px;
+	height: 170px;
+	border-radius: 3px;
+	padding-left: 5px;
+}
+.info-zing-choise{
+	margin-left: 5px;
+	padding-left: 5px;
+}
+.info-zing-choise .title-zing-choise{
+	font-weight: bold;
+	font-size: 20px;
+}
+.info-zing-choise .count-singer{
+	font-size: 12px;
+	color: #AAA;
+}
+
+
+.list-singer{
+	display: flex;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.info-item-singer{
+	font-weight: bold;
+	font-size: 14px;
+	display: flex;
+	color: #555;
+	height: 25px;
+	padding-top: 2px;
+}
+
+.info-item-singer .count{
+	width: 25px;
+}
+.info-item-singer .name-singer{
+	text-overflow: ellipsis;
+    overflow: hidden;
+    margin-left: 10px;
+    text-align: left;
+}
+.item-singer{
+	position: relative;
+	display: flex;
+	border-radius: 2px;
+	margin: 5px;
+}
+.item-singer .action-hover{
+	height: 25px;
+	position: absolute;
+	top: 0px;
+
+}
+.item-singer .action-hover i{
+	height: 25px;
+	min-width: 25px;
+	padding-top :3px;
+	background-color: #EEE;
+}
+.item-singer .action-hover .fa-play{
+	
+	color: #2461a3;
+}
+.item-singer .action-hover .fa-headphones{
+	margin-left: auto;
+	padding-right: 5px;
+}
+.item-singer .action-hover .fa-ellipsis-h{
+	min-width: 25px;
+}
+.item-singer:hover .action-hover{
+	opacity: 1;
+}
+.item-singer:hover .info-item-singer .count{
+	opacity: 0;
+}
+.item-singer:hover{
+	background-color: #EEE;
+}
+

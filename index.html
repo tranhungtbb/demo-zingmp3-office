@@ -1,0 +1,1918 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>index</title>
+	<link rel="stylesheet" type="text/css" href="./style.css">
+	<link rel="stylesheet" type="text/css" href="./style-slide-auto.css">
+	<link rel="stylesheet" type="text/css" href="./style-zing-choise.css">
+	<link rel="stylesheet" type="text/css" href="./style-header.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<style type="text/css">
+		body{
+			background-color: #fbfbfb;
+			/*min-width: 700px;
+			overflow-y: scroll;*/
+		}
+	</style>
+</head>
+<body>
+	<div class="container" style="position: fixed; left: 3%; right: 3%">
+		<div class="top-bar">
+			<div class="logo-header"></div>
+			<div class="search-bar">
+				<i class="fas fa-search"></i>
+				<input type="text" autocomplete="off" placeholder="Nhập tên bài hát, ca sĩ..." name="">
+			</div>
+			<div class="user-profile">
+				<img src="./images/user.jpg">
+				<div id="4" class="user-info">
+					<div class="user-name">Đình đình</div>
+					<div class="user-category">Tài khoản thường</div>
+				</div>
+			</div>
+		</div>
+		<div class="menu-bar">
+			<ul>
+				<li class="hide"><a href="">#Zingchart</a></li>
+				<li><a href="">Mới phát hành</a></li>
+				<li><a href="">Top 100</a>
+					<div class="sub-menu">
+						<ul class="sub-menu-item">
+							<li class="title-sub-menu">Việt Nam</li>
+							<li><a href="">Nhạc trẻ</a></li>
+							<li><a href="">Nhạc trữ tình</a></li>
+							<li><a href="">Quê hương</a></li>
+							<li><a href="">Nhạc cách mạng</a></li>
+							<li><a href="">Nhạc Rap/HipHop</a></li>
+							<li><a href="">Rook việt</a></li>
+						</ul>
+						<ul class="sub-menu-item">
+							<li class="title-sub-menu">Âu mỹ</li>
+							<li><a href="">Pop</a></li>
+							<li><a href="">Rook</a></li>
+							<li><a href="">Rap/Hip hop</a></li>
+							<li><a href="">country</a></li>
+							<li><a href="">eletronic/Dance</a></li>
+							<li><a href="">Rook việt</a></li>
+						</ul>
+						<ul class="sub-menu-item">
+							<li class="title-sub-menu">Châu á</li>
+							<li><a href="">Hàn quốc</a></li>
+							<li><a href="">Nhập bản</a></li>
+							<li><a href="">Hoa ngữ</a></li>
+							<li><a href="">Thái lan</a></li>
+						</ul>
+
+					</div>
+
+				</li>
+				<li><a href="">Chủ đề</a></li>
+				<li><a href="">Album</a></li>
+				<li><a href="">Nghệ sĩ</a></li>
+				<li><a href="">Nhạc cá nhân</a></li>
+			</ul>
+		</div>	
+	</div>
+	<!-- end header -->
+	<div class="container" style="height: 100px;">
+		
+	</div>
+	<div class="container">
+		<div class="slide-display">
+			<img class="mySlides-main" src="./images/image-slide/slide1.jpg" style="width:100%">
+			<img class="mySlides-main" src="./images/image-slide/slide2.jpg" style="width:100%">
+			<img class="mySlides-main" src="./images/image-slide/slide4.jpg" style="width:100%">
+			<img class="mySlides-main" src="./images/image-slide/slide5.jpg" style="width:100%">
+			<div class="action-slide-main">
+				<div class="button-slide" id="button-left-slide-main">&#10094;</div>
+				<div class="circles">
+					<span class="circle-slide circle-slide-while" onclick="currentDiv(1)"></span>
+					<span class="circle-slide circle-slide-while" onclick="currentDiv(2)"></span>
+					<span class="circle-slide circle-slide-while" onclick="currentDiv(3)"></span>
+					<span class="circle-slide circle-slide-while" onclick="currentDiv(4)"></span>
+				</div>
+				<div class="button-slide" id="button-right-slide-main">&#10095;</div>
+			</div>
+		</div>
+	</div>
+	<!-- end slide -->
+	<div class="container">
+		<div class="title">
+			<div class="title-content">Singer mới nhất</div>
+			<div class="action-slide">
+				<div class="button-slide" id="button-left">&#10094;</div>
+				<div class="button-slide" id="button-right">&#10095;</div>
+			</div>
+		</div>
+		<div class="slide-display">
+			<div class="row space">
+				<div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 mySlides newSinger">
+					<div class="item-slide-new-song">
+						<div class="image-slide">
+							<img src="./images/Singer-Hot/emvedi.jpg">
+						</div>
+						<div class="action">
+							<i class="fas fa-heart add-library"></i>
+							<i class="fas fa-play play"></i>
+							<i class="fas fa-ellipsis-h extend"></i>
+						</div>
+						<div class="info-item-slide">
+							<div class="name-of-thesong">Là em cố chấp</div>
+							<div class="singer">P.M.Band</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 mySlides newSinger">
+					<div class="item-slide-new-song">
+						<div class="image-slide">
+							<img src="./images/Singer-Hot/laemcochap.jpg">
+						</div>
+						<div class="action">
+							<i class="fas fa-heart add-library"></i>
+							<i class="fas fa-play play"></i>
+							<i class="fas fa-ellipsis-h extend"></i>
+						</div>
+						<div class="info-item-slide">
+							<div class="name-of-thesong">Là em cố chấp</div>
+							<div class="singer">P.M.Band</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 mySlides newSinger">
+					<div class="item-slide-new-song">
+						<div class="image-slide">
+							<img src="./images/Singer-Hot/saoconluutam.jpg">
+						</div>
+						<div class="action">
+							<i class="fas fa-heart add-library"></i>
+							<i class="fas fa-play play"></i>
+							<i class="fas fa-ellipsis-h extend"></i>
+						</div>
+						<div class="info-item-slide">
+							<div class="name-of-thesong">Là em cố chấp</div>
+							<div class="singer">P.M.Band</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 mySlides newSinger">
+					<div class="item-slide-new-song">
+						<div class="image-slide">
+							<img src="./images/Singer-Hot/emkhongsailachungtasai.jpg">
+						</div>
+						<div class="action">
+							<i class="fas fa-heart add-library"></i>
+							<i class="fas fa-play play"></i>
+							<i class="fas fa-ellipsis-h extend"></i>
+						</div>
+						<div class="info-item-slide">
+							<div class="name-of-thesong">Là em cố chấp</div>
+							<div class="singer">P.M.Band</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 mySlides newSinger">
+					<div class="item-slide-new-song">
+						<div class="image-slide">
+							<img src="./images/Singer-Hot/nguoiminhyeuchuachacdayeuminh.jpg">
+						</div>
+						<div class="action">
+							<i class="fas fa-heart add-library"></i>
+							<i class="fas fa-play play"></i>
+							<i class="fas fa-ellipsis-h extend"></i>
+						</div>
+						<div class="info-item-slide">
+							<div class="name-of-thesong">Là em cố chấp</div>
+							<div class="singer">P.M.Band</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 mySlides newSinger">
+					<div class="item-slide-new-song">
+						<div class="image-slide">
+							<img src="./images/Singer-Hot/emkhongsailachungtasai.jpg">
+						</div>
+						<div class="action">
+							<i class="fas fa-heart add-library"></i>
+							<i class="fas fa-play play"></i>
+							<i class="fas fa-ellipsis-h extend"></i>
+						</div>
+						<div class="info-item-slide">
+							<div class="name-of-thesong">Là em cố chấp</div>
+							<div class="singer">P.M.Band</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 mySlides newSinger">
+					<div class="item-slide-new-song">
+						<div class="image-slide">
+							<img src="./images/Singer-Hot/nguoiminhyeuchuachacdayeuminh.jpg">
+						</div>
+						<div class="action">
+							<i class="fas fa-heart add-library"></i>
+							<i class="fas fa-play play"></i>
+							<i class="fas fa-ellipsis-h extend"></i>
+						</div>
+						<div class="info-item-slide">
+							<div class="name-of-thesong">Là em cố chấp</div>
+							<div class="singer">P.M.Band</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 mySlides newSinger">
+					<div class="item-slide-new-song">
+						<div class="image-slide">
+							<img src="./images/Singer-Hot/nguoiminhyeuchuachacdayeuminh.jpg">
+						</div>
+						<div class="action">
+							<i class="fas fa-heart add-library"></i>
+							<i class="fas fa-play play"></i>
+							<i class="fas fa-ellipsis-h extend"></i>
+						</div>
+						<div class="info-item-slide">
+							<div class="name-of-thesong">Là em cố chấp</div>
+							<div class="singer">P.M.Band</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row space">
+			<div class="col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4">
+				<div class="item-new-song">
+					<div class="image-new-song">
+						<a href="">
+							<img src="./images/Singer-Hot/nguoiminhyeuchuachacdayeuminh.jpg">
+						</a>
+					</div>
+					<div class="info">
+						<div class="name-of-thesong">Là em cố chấp</div>
+						<div class="singer">P.M.Band</div>
+					</div>
+					<div class="action-hover">
+						<i class="fas fa-play"></i>
+						<i class="fas fa-headphones"></i>
+						<i class="fas fa-ellipsis-h"></i>
+					</div>
+				</div>
+			</div>
+			<!-- end column -->
+			<div class="col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4">
+				<div class="item-new-song">
+					<div class="image-new-song">
+						<a href="">
+							<img src="./images/Singer-Hot/nguoiminhyeuchuachacdayeuminh.jpg">
+							<!-- <i class="fas fa-play"></i> -->
+						</a>
+					</div>
+					<div class="info">
+						<div class="name-of-thesong">Là em cố chấp</div>
+						<div class="singer">P.M.Band</div>
+					</div>
+					<div class="action-hover">
+						<i class="fas fa-play"></i>
+						<i class="fas fa-headphones"></i>
+						<i class="fas fa-ellipsis-h"></i>
+					</div>
+				</div>
+			</div>
+			<!-- end column -->
+			<div class="col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4">
+				<div class="item-new-song">
+					<div class="image-new-song">
+						<a href="">
+							<img src="./images/Singer-Hot/nguoiminhyeuchuachacdayeuminh.jpg">
+							<!-- <i class="fas fa-play"></i> -->
+						</a>
+					</div>
+					<div class="info">
+						<div class="name-of-thesong">Là em cố chấp</div>
+						<div class="singer">P.M.Band</div>
+					</div>
+					<div class="action-hover">
+						<i class="fas fa-play"></i>
+						<i class="fas fa-headphones"></i>
+						<i class="fas fa-ellipsis-h"></i>
+					</div>
+				</div>
+			</div>
+			<!-- end column -->
+			<div class="col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4">
+				<div class="item-new-song">
+					<div class="image-new-song">
+						<a href="">
+							<img src="./images/Singer-Hot/nguoiminhyeuchuachacdayeuminh.jpg">
+							<!-- <i class="fas fa-play"></i> -->
+						</a>
+					</div>
+					<div class="info">
+						<div class="name-of-thesong">Là em cố chấp</div>
+						<div class="singer">P.M.Band</div>
+					</div>
+					<div class="action-hover">
+						<i class="fas fa-play"></i>
+						<i class="fas fa-headphones"></i>
+						<i class="fas fa-ellipsis-h"></i>
+					</div>
+				</div>
+			</div>
+			<!-- end column -->
+			<div class="col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4">
+				<div class="item-new-song">
+					<div class="image-new-song">
+						<a href="">
+							<img src="./images/Singer-Hot/nguoiminhyeuchuachacdayeuminh.jpg">
+							<!-- <i class="fas fa-play"></i> -->
+						</a>
+					</div>
+					<div class="info">
+						<div class="name-of-thesong">Là em cố chấp</div>
+						<div class="singer">P.M.Band</div>
+					</div>
+					<div class="action-hover">
+						<i class="fas fa-play"></i>
+						<i class="fas fa-headphones"></i>
+						<i class="fas fa-ellipsis-h"></i>
+					</div>
+				</div>
+			</div>
+			<!-- end column -->
+			<div class="col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4">
+				<div class="item-new-song">
+					<div class="image-new-song">
+						<a href="">
+							<img src="./images/Singer-Hot/nguoiminhyeuchuachacdayeuminh.jpg">
+							<!-- <i class="fas fa-play"></i> -->
+						</a>
+					</div>
+					<div class="info">
+						<div class="name-of-thesong">Là em cố chấp</div>
+						<div class="singer">P.M.Band</div>
+					</div>
+					<div class="action-hover">
+						<i class="fas fa-play"></i>
+						<i class="fas fa-headphones"></i>
+						<i class="fas fa-ellipsis-h"></i>
+					</div>
+				</div>
+			</div>
+			<!-- end column -->
+			<div class="col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4">
+				<div class="item-new-song">
+					<div class="image-new-song">
+						<a href="">
+							<img src="./images/Singer-Hot/nguoiminhyeuchuachacdayeuminh.jpg">
+							<!-- <i class="fas fa-play"></i> -->
+						</a>
+					</div>
+					<div class="info">
+						<div class="name-of-thesong">Là em cố chấp</div>
+						<div class="singer">P.M.Band</div>
+					</div>
+					<div class="action-hover">
+						<i class="fas fa-play"></i>
+						<i class="fas fa-headphones"></i>
+						<i class="fas fa-ellipsis-h"></i>
+					</div>
+				</div>
+			</div>
+			<!-- end column -->
+			<div class="col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4">
+				<div class="item-new-song">
+					<div class="image-new-song">
+						<a href="">
+							<img src="./images/Singer-Hot/nguoiminhyeuchuachacdayeuminh.jpg">
+							<!-- <i class="fas fa-play"></i> -->
+						</a>
+					</div>
+					<div class="info">
+						<div class="name-of-thesong">Là em cố chấp</div>
+						<div class="singer">P.M.Band</div>
+					</div>
+					<div class="action-hover">
+						<i class="fas fa-play"></i>
+						<i class="fas fa-headphones"></i>
+						<i class="fas fa-ellipsis-h"></i>
+					</div>
+				</div>
+			</div>
+			<!-- end column -->
+			<div class="col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4">
+				<div class="item-new-song">
+					<div class="image-new-song">
+						<a href="">
+							<img src="./images/Singer-Hot/nguoiminhyeuchuachacdayeuminh.jpg">
+							<!-- <i class="fas fa-play"></i> -->
+						</a>
+					</div>
+					<div class="info">
+						<div class="name-of-thesong">Là em cố chấp</div>
+						<div class="singer">P.M.Band</div>
+					</div>
+					<div class="action-hover">
+						<i class="fas fa-play"></i>
+						<i class="fas fa-headphones"></i>
+						<i class="fas fa-ellipsis-h"></i>
+					</div>
+				</div>
+			</div>
+			<!-- end column -->
+			<div class="col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4">
+				<div class="item-new-song">
+					<div class="image-new-song">
+						<a href="">
+							<img src="./images/Singer-Hot/nguoiminhyeuchuachacdayeuminh.jpg">
+							<!-- <i class="fas fa-play"></i> -->
+						</a>
+					</div>
+					<div class="info">
+						<div class="name-of-thesong">Là em cố chấp</div>
+						<div class="singer">P.M.Band</div>
+					</div>
+					<div class="action-hover">
+						<i class="fas fa-play"></i>
+						<i class="fas fa-headphones"></i>
+						<i class="fas fa-ellipsis-h"></i>
+					</div>
+				</div>
+			</div>
+			<!-- end column -->
+			<div class="col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4">
+				<div class="item-new-song">
+					<div class="image-new-song">
+						<a href="">
+							<img src="./images/Singer-Hot/nguoiminhyeuchuachacdayeuminh.jpg">
+							<!-- <i class="fas fa-play"></i> -->
+						</a>
+					</div>
+					<div class="info">
+						<div class="name-of-thesong">Là em cố chấp</div>
+						<div class="singer">P.M.Band</div>
+					</div>
+					<div class="action-hover">
+						<i class="fas fa-play"></i>
+						<i class="fas fa-headphones"></i>
+						<i class="fas fa-ellipsis-h"></i>
+					</div>
+				</div>
+			</div>
+			<!-- end column -->
+			<div class="col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4">
+				<div class="item-new-song">
+					<div class="image-new-song">
+						<a href="">
+							<img src="./images/Singer-Hot/nguoiminhyeuchuachacdayeuminh.jpg">
+							<!-- <i class="fas fa-play"></i> -->
+						</a>
+					</div>
+					<div class="info">
+						<div class="name-of-thesong">Là em cố chấp</div>
+						<div class="singer">P.M.Band</div>
+					</div>
+					<div class="action-hover">
+						<i class="fas fa-play"></i>
+						<i class="fas fa-headphones"></i>
+						<i class="fas fa-ellipsis-h"></i>
+					</div>
+				</div>
+			</div>
+			<!-- end column -->
+		</div>
+	</div><!-- end container new Singer -->
+
+	<div class="container">
+		<div class="title">
+			<div class="title-content">China Music</div>
+			<div class="action-slide">
+				<div class="button-slide" id="button-left">&#10094;</div>
+				<div class="button-slide" id="button-right">&#10095;</div>
+			</div>
+		</div>
+		<div class="slide-display">
+			<div class="row space">
+				<div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 mySlides chinaSinger">
+					<div class="item-slide-new-song">
+						<div class="image-slide">
+							<img src="./images/china/hotface.jpg">
+						</div>
+						<div class="action">
+							<i class="fas fa-heart add-library"></i>
+							<i class="fas fa-play play"></i>
+							<i class="fas fa-ellipsis-h extend"></i>
+						</div>
+						<div class="info-item-slide">
+							<div class="name-of-thesong">Là em cố chấp</div>
+							<div class="singer">P.M.Band</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 mySlides chinaSinger">
+					<div class="item-slide-new-song">
+						<div class="image-slide">
+							<img src="./images/china/new.jpg">
+						</div>
+						<div class="action">
+							<i class="fas fa-heart add-library"></i>
+							<i class="fas fa-play play"></i>
+							<i class="fas fa-ellipsis-h extend"></i>
+						</div>
+						<div class="info-item-slide">
+							<div class="name-of-thesong">Là em cố chấp</div>
+							<div class="singer">P.M.Band</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 mySlides chinaSinger">
+					<div class="item-slide-new-song">
+						<div class="image-slide">
+							<img src="./images/china/top.jpg">
+						</div>
+						<div class="action">
+							<i class="fas fa-heart add-library"></i>
+							<i class="fas fa-play play"></i>
+							<i class="fas fa-ellipsis-h extend"></i>
+						</div>
+						<div class="info-item-slide">
+							<div class="name-of-thesong">Là em cố chấp</div>
+							<div class="singer">P.M.Band</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 mySlides chinaSinger">
+					<div class="item-slide-new-song">
+						<div class="image-slide">
+							<img src="./images/china/trend.jpg">
+						</div>
+						<div class="action">
+							<i class="fas fa-heart add-library"></i>
+							<i class="fas fa-play play"></i>
+							<i class="fas fa-ellipsis-h extend"></i>
+						</div>
+						<div class="info-item-slide">
+							<div class="name-of-thesong">Là em cố chấp</div>
+							<div class="singer">P.M.Band</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 mySlides chinaSinger">
+					<div class="item-slide-new-song">
+						<div class="image-slide">
+							<img src="./images/china/special.jpg">
+						</div>
+						<div class="action">
+							<i class="fas fa-heart add-library"></i>
+							<i class="fas fa-play play"></i>
+							<i class="fas fa-ellipsis-h extend"></i>
+						</div>
+						<div class="info-item-slide">
+							<div class="name-of-thesong">Là em cố chấp</div>
+							<div class="singer">P.M.Band</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 mySlides chinaSinger">
+					<div class="item-slide-new-song">
+						<div class="image-slide">
+							<img src="./images/china/hotface.jpg">
+						</div>
+						<div class="action">
+							<i class="fas fa-heart add-library"></i>
+							<i class="fas fa-play play"></i>
+							<i class="fas fa-ellipsis-h extend"></i>
+						</div>
+						<div class="info-item-slide">
+							<div class="name-of-thesong">Là em cố chấp</div>
+							<div class="singer">P.M.Band</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 mySlides chinaSinger">
+					<div class="item-slide-new-song">
+						<div class="image-slide">
+							<img src="./images/china/trend.jpg">
+						</div>
+						<div class="action">
+							<i class="fas fa-heart add-library"></i>
+							<i class="fas fa-play play"></i>
+							<i class="fas fa-ellipsis-h extend"></i>
+						</div>
+						<div class="info-item-slide">
+							<div class="name-of-thesong">Là em cố chấp</div>
+							<div class="singer">P.M.Band</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 mySlides chinaSinger">
+					<div class="item-slide-new-song">
+						<div class="image-slide">
+							<img src="./images/china/new.jpg">
+						</div>
+						<div class="action">
+							<i class="fas fa-heart add-library"></i>
+							<i class="fas fa-play play"></i>
+							<i class="fas fa-ellipsis-h extend"></i>
+						</div>
+						<div class="info-item-slide">
+							<div class="name-of-thesong">Là em cố chấp</div>
+							<div class="singer">P.M.Band</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div> <!-- end singer china -->
+	<div class="container">
+		<div class="title">
+			<div class="title-content">Korea Music</div>
+			<div class="action-slide">
+				<div class="button-slide" id="button-left">&#10094;</div>
+				<div class="button-slide" id="button-right">&#10095;</div>
+			</div>
+		</div>
+		<div class="slide-display">
+			<div class="row space">
+				<div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 mySlides koreaSinger">
+					<div class="item-slide-new-song">
+						<div class="image-slide">
+							<img src="./images/korea/hit.jpg">
+						</div>
+						<div class="action">
+							<i class="fas fa-heart add-library"></i>
+							<i class="fas fa-play play"></i>
+							<i class="fas fa-ellipsis-h extend"></i>
+						</div>
+						<div class="info-item-slide">
+							<div class="name-of-thesong">Là em cố chấp</div>
+							<div class="singer">P.M.Band</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 mySlides koreaSinger">
+					<div class="item-slide-new-song">
+						<div class="image-slide">
+							<img src="./images/korea/kpophuahen.jpg">
+						</div>
+						<div class="action">
+							<i class="fas fa-heart add-library"></i>
+							<i class="fas fa-play play"></i>
+							<i class="fas fa-ellipsis-h extend"></i>
+						</div>
+						<div class="info-item-slide">
+							<div class="name-of-thesong">Là em cố chấp</div>
+							<div class="singer">P.M.Band</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 mySlides koreaSinger">
+					<div class="item-slide-new-song">
+						<div class="image-slide">
+							<img src="./images/korea/nmld.jpg">
+						</div>
+						<div class="action">
+							<i class="fas fa-heart add-library"></i>
+							<i class="fas fa-play play"></i>
+							<i class="fas fa-ellipsis-h extend"></i>
+						</div>
+						<div class="info-item-slide">
+							<div class="name-of-thesong">Là em cố chấp</div>
+							<div class="singer">P.M.Band</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 mySlides koreaSinger">
+					<div class="item-slide-new-song">
+						<div class="image-slide">
+							<img src="./images/korea/noibat.jpg">
+						</div>
+						<div class="action">
+							<i class="fas fa-heart add-library"></i>
+							<i class="fas fa-play play"></i>
+							<i class="fas fa-ellipsis-h extend"></i>
+						</div>
+						<div class="info-item-slide">
+							<div class="name-of-thesong">Là em cố chấp</div>
+							<div class="singer">P.M.Band</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 mySlides koreaSinger">
+					<div class="item-slide-new-song">
+						<div class="image-slide">
+							<img src="./images/korea/today.jpg">
+						</div>
+						<div class="action">
+							<i class="fas fa-heart add-library"></i>
+							<i class="fas fa-play play"></i>
+							<i class="fas fa-ellipsis-h extend"></i>
+						</div>
+						<div class="info-item-slide">
+							<div class="name-of-thesong">Là em cố chấp</div>
+							<div class="singer">P.M.Band</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 mySlides koreaSinger">
+					<div class="item-slide-new-song">
+						<div class="image-slide">
+							<img src="./images/korea/hit.jpg">
+						</div>
+						<div class="action">
+							<i class="fas fa-heart add-library"></i>
+							<i class="fas fa-play play"></i>
+							<i class="fas fa-ellipsis-h extend"></i>
+						</div>
+						<div class="info-item-slide">
+							<div class="name-of-thesong">Là em cố chấp</div>
+							<div class="singer">P.M.Band</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div> <!-- end singer kore -->
+	<div class="container">
+		<div class="title">
+			<div class="title-content">US-UK Music</div>
+			<div class="action-slide">
+				<div class="button-slide" id="button-left">&#10094;</div>
+				<div class="button-slide" id="button-right">&#10095;</div>
+			</div>
+		</div>
+		<div class="slide-display">
+			<div class="row space">
+				<div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 mySlides US-UKSinger">
+					<div class="item-slide-new-song">
+						<div class="image-slide">
+							<img src="./images/aumy/country.jpg">
+						</div>
+						<div class="action">
+							<i class="fas fa-heart add-library"></i>
+							<i class="fas fa-play play"></i>
+							<i class="fas fa-ellipsis-h extend"></i>
+						</div>
+						<div class="info-item-slide">
+							<div class="name-of-thesong">Là em cố chấp</div>
+							<div class="singer">P.M.Band</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 mySlides US-UKSinger">
+					<div class="item-slide-new-song">
+						<div class="image-slide">
+							<img src="./images/aumy/top.jpg">
+						</div>
+						<div class="action">
+							<i class="fas fa-heart add-library"></i>
+							<i class="fas fa-play play"></i>
+							<i class="fas fa-ellipsis-h extend"></i>
+						</div>
+						<div class="info-item-slide">
+							<div class="name-of-thesong">Là em cố chấp</div>
+							<div class="singer">P.M.Band</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 mySlides US-UKSinger">
+					<div class="item-slide-new-song">
+						<div class="image-slide">
+							<img src="./images/aumy/edm.jpg">
+						</div>
+						<div class="action">
+							<i class="fas fa-heart add-library"></i>
+							<i class="fas fa-play play"></i>
+							<i class="fas fa-ellipsis-h extend"></i>
+						</div>
+						<div class="info-item-slide">
+							<div class="name-of-thesong">Là em cố chấp</div>
+							<div class="singer">P.M.Band</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 mySlides US-UKSinger">
+					<div class="item-slide-new-song">
+						<div class="image-slide">
+							<img src="./images/aumy/latin.jpg">
+						</div>
+						<div class="action">
+							<i class="fas fa-heart add-library"></i>
+							<i class="fas fa-play play"></i>
+							<i class="fas fa-ellipsis-h extend"></i>
+						</div>
+						<div class="info-item-slide">
+							<div class="name-of-thesong">Là em cố chấp</div>
+							<div class="singer">P.M.Band</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 mySlides US-UKSinger">
+					<div class="item-slide-new-song">
+						<div class="image-slide">
+							<img src="./images/aumy/rap.jpg">
+						</div>
+						<div class="action">
+							<i class="fas fa-heart add-library"></i>
+							<i class="fas fa-play play"></i>
+							<i class="fas fa-ellipsis-h extend"></i>
+						</div>
+						<div class="info-item-slide">
+							<div class="name-of-thesong">Là em cố chấp</div>
+							<div class="singer">P.M.Band</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 mySlides US-UKSinger">
+					<div class="item-slide-new-song">
+						<div class="image-slide">
+							<img src="./images/aumy/top.jpg">
+						</div>
+						<div class="action">
+							<i class="fas fa-heart add-library"></i>
+							<i class="fas fa-play play"></i>
+							<i class="fas fa-ellipsis-h extend"></i>
+						</div>
+						<div class="info-item-slide">
+							<div class="name-of-thesong">Là em cố chấp</div>
+							<div class="singer">P.M.Band</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div> <!-- end singer aumy -->
+	<div class="container">
+		<div class="title">
+			<div class="title-content">Xả stress</div>
+			<div class="action-slide">
+				<div class="button-slide" id="button-left">&#10094;</div>
+				<div class="button-slide" id="button-right">&#10095;</div>
+			</div>
+		</div>
+		<div class="slide-display">
+			<div class="row space">
+				<div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 mySlides XaStress">
+					<div class="item-slide-new-song">
+						<div class="image-slide">
+							<img src="./images/stress/baroque.jpg">
+						</div>
+						<div class="action">
+							<i class="fas fa-heart add-library"></i>
+							<i class="fas fa-play play"></i>
+							<i class="fas fa-ellipsis-h extend"></i>
+						</div>
+						<div class="info-item-slide">
+							<div class="name-of-thesong">Là em cố chấp</div>
+							<div class="singer">P.M.Band</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 mySlides XaStress">
+					<div class="item-slide-new-song">
+						<div class="image-slide">
+							<img src="./images/stress/edm.jpg">
+						</div>
+						<div class="action">
+							<i class="fas fa-heart add-library"></i>
+							<i class="fas fa-play play"></i>
+							<i class="fas fa-ellipsis-h extend"></i>
+						</div>
+						<div class="info-item-slide">
+							<div class="name-of-thesong">Là em cố chấp</div>
+							<div class="singer">P.M.Band</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 mySlides XaStress">
+					<div class="item-slide-new-song">
+						<div class="image-slide">
+							<img src="./images/stress/nhachoa.jpg">
+						</div>
+						<div class="action">
+							<i class="fas fa-heart add-library"></i>
+							<i class="fas fa-play play"></i>
+							<i class="fas fa-ellipsis-h extend"></i>
+						</div>
+						<div class="info-item-slide">
+							<div class="name-of-thesong">Là em cố chấp</div>
+							<div class="singer">P.M.Band</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 mySlides XaStress">
+					<div class="item-slide-new-song">
+						<div class="image-slide">
+							<img src="./images/stress/tanman.jpg">
+						</div>
+						<div class="action">
+							<i class="fas fa-heart add-library"></i>
+							<i class="fas fa-play play"></i>
+							<i class="fas fa-ellipsis-h extend"></i>
+						</div>
+						<div class="info-item-slide">
+							<div class="name-of-thesong">Là em cố chấp</div>
+							<div class="singer">P.M.Band</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 mySlides UXaStress">
+					<div class="item-slide-new-song">
+						<div class="image-slide">
+							<img src="./images/stress/baroque.jpg">
+						</div>
+						<div class="action">
+							<i class="fas fa-heart add-library"></i>
+							<i class="fas fa-play play"></i>
+							<i class="fas fa-ellipsis-h extend"></i>
+						</div>
+						<div class="info-item-slide">
+							<div class="name-of-thesong">Là em cố chấp</div>
+							<div class="singer">P.M.Band</div>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</div> <!-- end singer aumy -->
+	<div class="container">
+		<div class="title">
+			<div class="title-content">Top 100 Singer</div>
+			<div class="action-slide">
+				<div class="button-slide" id="button-left">&#10094;</div>
+				<div class="button-slide" id="button-right">&#10095;</div>
+			</div>
+		</div>
+		<div class="slide-display">
+			<div class="row space">
+				<div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 mySlides top100">
+					<div class="item-slide-new-song">
+						<div class="image-slide">
+							<img src="./images/top100/edm.jpg">
+						</div>
+						<div class="action">
+							<i class="fas fa-heart add-library"></i>
+							<i class="fas fa-play play"></i>
+							<i class="fas fa-ellipsis-h extend"></i>
+						</div>
+						<div class="info-item-slide">
+							<div class="name-of-thesong">Là em cố chấp</div>
+							<div class="singer">P.M.Band</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 mySlides top100">
+					<div class="item-slide-new-song">
+						<div class="image-slide">
+							<img src="./images/top100/korea.jpg">
+						</div>
+						<div class="action">
+							<i class="fas fa-heart add-library"></i>
+							<i class="fas fa-play play"></i>
+							<i class="fas fa-ellipsis-h extend"></i>
+						</div>
+						<div class="info-item-slide">
+							<div class="name-of-thesong">Là em cố chấp</div>
+							<div class="singer">P.M.Band</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 mySlides top100">
+					<div class="item-slide-new-song">
+						<div class="image-slide">
+							<img src="./images/top100/nhactre.jpg">
+						</div>
+						<div class="action">
+							<i class="fas fa-heart add-library"></i>
+							<i class="fas fa-play play"></i>
+							<i class="fas fa-ellipsis-h extend"></i>
+						</div>
+						<div class="info-item-slide">
+							<div class="name-of-thesong">Là em cố chấp</div>
+							<div class="singer">P.M.Band</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 mySlides top100">
+					<div class="item-slide-new-song">
+						<div class="image-slide">
+							<img src="./images/top100/popaumy.jpg">
+						</div>
+						<div class="action">
+							<i class="fas fa-heart add-library"></i>
+							<i class="fas fa-play play"></i>
+							<i class="fas fa-ellipsis-h extend"></i>
+						</div>
+						<div class="info-item-slide">
+							<div class="name-of-thesong">Là em cố chấp</div>
+							<div class="singer">P.M.Band</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 mySlides top100">
+					<div class="item-slide-new-song">
+						<div class="image-slide">
+							<img src="./images/top100/trutinh.jpg">
+						</div>
+						<div class="action">
+							<i class="fas fa-heart add-library"></i>
+							<i class="fas fa-play play"></i>
+							<i class="fas fa-ellipsis-h extend"></i>
+						</div>
+						<div class="info-item-slide">
+							<div class="name-of-thesong">Là em cố chấp</div>
+							<div class="singer">P.M.Band</div>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</div> <!-- end top 100 singer  -->
+	<div class="container">
+		<div class="title">
+			<div class="title-content">Guita</div>
+			<div class="action-slide">
+				<div class="button-slide" id="button-left">&#10094;</div>
+				<div class="button-slide" id="button-right">&#10095;</div>
+			</div>
+		</div>
+		<div class="slide-display">
+			<div class="row space">
+				<div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 mySlides guita">
+					<div class="item-slide-new-song">
+						<div class="image-slide">
+							<img src="./images/guita/2.jpg">
+						</div>
+						<div class="action">
+							<i class="fas fa-heart add-library"></i>
+							<i class="fas fa-play play"></i>
+							<i class="fas fa-ellipsis-h extend"></i>
+						</div>
+						<div class="info-item-slide">
+							<div class="name-of-thesong">Là em cố chấp</div>
+							<div class="singer">P.M.Band</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 mySlides guita">
+					<div class="item-slide-new-song">
+						<div class="image-slide">
+							<img src="./images/guita/3.jpg">
+						</div>
+						<div class="action">
+							<i class="fas fa-heart add-library"></i>
+							<i class="fas fa-play play"></i>
+							<i class="fas fa-ellipsis-h extend"></i>
+						</div>
+						<div class="info-item-slide">
+							<div class="name-of-thesong">Là em cố chấp</div>
+							<div class="singer">P.M.Band</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 mySlides guita">
+					<div class="item-slide-new-song">
+						<div class="image-slide">
+							<img src="./images/guita/3.jpg">
+						</div>
+						<div class="action">
+							<i class="fas fa-heart add-library"></i>
+							<i class="fas fa-play play"></i>
+							<i class="fas fa-ellipsis-h extend"></i>
+						</div>
+						<div class="info-item-slide">
+							<div class="name-of-thesong">Là em cố chấp</div>
+							<div class="singer">P.M.Band</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 mySlides guita">
+					<div class="item-slide-new-song">
+						<div class="image-slide">
+							<img src="./images/guita/4.jpg">
+						</div>
+						<div class="action">
+							<i class="fas fa-heart add-library"></i>
+							<i class="fas fa-play play"></i>
+							<i class="fas fa-ellipsis-h extend"></i>
+						</div>
+						<div class="info-item-slide">
+							<div class="name-of-thesong">Là em cố chấp</div>
+							<div class="singer">P.M.Band</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 mySlides guita">
+					<div class="item-slide-new-song">
+						<div class="image-slide">
+							<img src="./images/guita/5.jpg">
+						</div>
+						<div class="action">
+							<i class="fas fa-heart add-library"></i>
+							<i class="fas fa-play play"></i>
+							<i class="fas fa-ellipsis-h extend"></i>
+						</div>
+						<div class="info-item-slide">
+							<div class="name-of-thesong">Là em cố chấp</div>
+							<div class="singer">P.M.Band</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 mySlides guita">
+					<div class="item-slide-new-song">
+						<div class="image-slide">
+							<img src="./images/guita/7.jpg">
+						</div>
+						<div class="action">
+							<i class="fas fa-heart add-library"></i>
+							<i class="fas fa-play play"></i>
+							<i class="fas fa-ellipsis-h extend"></i>
+						</div>
+						<div class="info-item-slide">
+							<div class="name-of-thesong">Là em cố chấp</div>
+							<div class="singer">P.M.Band</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3 mySlides guita">
+					<div class="item-slide-new-song">
+						<div class="image-slide">
+							<img src="./images/guita/8.jpg">
+						</div>
+						<div class="action">
+							<i class="fas fa-heart add-library"></i>
+							<i class="fas fa-play play"></i>
+							<i class="fas fa-ellipsis-h extend"></i>
+						</div>
+						<div class="info-item-slide">
+							<div class="name-of-thesong">Là em cố chấp</div>
+							<div class="singer">P.M.Band</div>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</div> <!-- end guita  -->
+	<!-- MV hot -->
+	
+	<div class="container">
+		<div class="title">
+			<div class="title-content">Mix Zing Choice</div>
+		</div>
+		<div class="row maint-zing-choise">
+			<div class="col-4">
+				<div class="row zing-choise">
+					<div class=" content">
+						<div class="image-zing-choise">
+							<img src="./images/album/mr.jpg">
+						</div>
+						<div class="action">
+							<i class="fas fa-heart add-library"></i>
+							<i class="fas fa-play play"></i>
+							<i class="fas fa-ellipsis-h extend"></i>
+						</div>
+					</div>
+					<div class=" info-zing-choise">
+						<div class="title-zing-choise">góc nhạc m.r siro</div>
+						<div class="count-singer">30 bài hát</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-8">
+				<div class="row list-singer">
+					<div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 list-singer-left">
+						<div class="item-singer">
+							<div class="info-item-singer">
+								<div class="count">1.</div>
+								<div class="name-singer">Đừng lo anh đợi mà</div>
+							</div>
+							<div class="action-hover">
+								<i class="fas fa-play"></i>
+								<i class="fas fa-headphones"></i>
+								<i class="fas fa-ellipsis-h"></i>
+							</div>
+						</div>
+						<div class="item-singer">
+							<div class="info-item-singer">
+								<div class="count">2.</div>
+								<div class="name-singer">Khóc cùng em</div>
+							</div>
+							<div class="action-hover">
+								<i class="fas fa-play"></i>
+								<i class="fas fa-headphones"></i>
+								<i class="fas fa-ellipsis-h"></i>
+							</div>
+						</div>
+						<div class="item-singer">
+							<div class="info-item-singer">
+								<div class="count">3.</div>
+								<div class="name-singer">Cô đơn không muốn về nhà</div>
+							</div>
+							<div class="action-hover">
+								<i class="fas fa-play"></i>
+								<i class="fas fa-headphones"></i>
+								<i class="fas fa-ellipsis-h"></i>
+							</div>
+						</div>
+						<div class="item-singer">
+							<div class="info-item-singer">
+								<div class="count">4.</div>
+								<div class="name-singer">Một bước yêu vạn dặm đau</div>
+							</div>
+							<div class="action-hover">
+								<i class="fas fa-play"></i>
+								<i class="fas fa-headphones"></i>
+								<i class="fas fa-ellipsis-h"></i>
+							</div>
+						</div>
+						<div class="item-singer">
+							<div class="info-item-singer">
+								<div class="count">5.</div>
+								<div class="name-singer">Day dứt nối đau</div>
+							</div>
+							<div class="action-hover">
+								<i class="fas fa-play"></i>
+								<i class="fas fa-headphones"></i>
+								<i class="fas fa-ellipsis-h"></i>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 list-singer-right">
+						<div class="item-singer">
+							<div class="info-item-singer">
+								<div class="count">6.</div>
+								<div class="name-singer">Càng líu giữ càng dễ mất</div>
+							</div>
+							<div class="action-hover">
+								<i class="fas fa-play"></i>
+								<i class="fas fa-headphones"></i>
+								<i class="fas fa-ellipsis-h"></i>
+							</div>
+						</div>
+						<div class="item-singer">
+							<div class="info-item-singer">
+								<div class="count">7.</div>
+								<div class="name-singer">Lằng nghe nước mắt</div>
+							</div>
+							<div class="action-hover">
+								<i class="fas fa-play"></i>
+								<i class="fas fa-headphones"></i>
+								<i class="fas fa-ellipsis-h"></i>
+							</div>
+						</div>
+						<div class="item-singer">
+							<div class="info-item-singer">
+								<div class="count">8.</div>
+								<div class="name-singer">Gương mặt lạ lẫm</div>
+							</div>
+							<div class="action-hover">
+								<i class="fas fa-play"></i>
+								<i class="fas fa-headphones"></i>
+								<i class="fas fa-ellipsis-h"></i>
+							</div>
+						</div>
+						<div class="item-singer">
+							<div class="info-item-singer">
+								<div class="count">9.</div>
+								<div class="name-singer">Dưới những cơn mưa</div>
+							</div>
+							<div class="action-hover">
+								<i class="fas fa-play"></i>
+								<i class="fas fa-headphones"></i>
+								<i class="fas fa-ellipsis-h"></i>
+							</div>
+						</div>
+						<div class="item-singer">
+							<div class="info-item-singer">
+								<div class="count">10.</div>
+								<div class="name-singer">bức tranh từ nước mắt</div>
+							</div>
+							<div class="action-hover">
+								<i class="fas fa-play"></i>
+								<i class="fas fa-headphones"></i>
+								<i class="fas fa-ellipsis-h"></i>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row maint-zing-choise">
+			<div class="col-4">
+				<div class="row zing-choise">
+					<div class=" content">
+						<div class="image-zing-choise">
+							<img src="./images/album/chidan.jpg">
+						</div>
+						<div class="action">
+							<i class="fas fa-heart add-library"></i>
+							<i class="fas fa-play play"></i>
+							<i class="fas fa-ellipsis-h extend"></i>
+						</div>
+					</div>
+					<div class=" info-zing-choise">
+						<div class="title-zing-choise">góc nhạc chi dân</div>
+						<div class="count-singer">40 bài hát</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-8">
+				<div class="row list-singer">
+					<div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 list-singer-left">
+						<div class="item-singer">
+							<div class="info-item-singer">
+								<div class="count">1.</div>
+								<div class="name-singer">điều anh biết</div>
+							</div>
+							<div class="action-hover">
+								<i class="fas fa-play"></i>
+								<i class="fas fa-headphones"></i>
+								<i class="fas fa-ellipsis-h"></i>
+							</div>
+						</div>
+						<div class="item-singer">
+							<div class="info-item-singer">
+								<div class="count">2.</div>
+								<div class="name-singer">1234</div>
+							</div>
+							<div class="action-hover">
+								<i class="fas fa-play"></i>
+								<i class="fas fa-headphones"></i>
+								<i class="fas fa-ellipsis-h"></i>
+							</div>
+						</div>
+						<div class="item-singer">
+							<div class="info-item-singer">
+								<div class="count">3.</div>
+								<div class="name-singer">làm vợ anh nhé</div>
+							</div>
+							<div class="action-hover">
+								<i class="fas fa-play"></i>
+								<i class="fas fa-headphones"></i>
+								<i class="fas fa-ellipsis-h"></i>
+							</div>
+						</div>
+						<div class="item-singer">
+							<div class="info-item-singer">
+								<div class="count">4.</div>
+								<div class="name-singer">Tim em trong mơ</div>
+							</div>
+							<div class="action-hover">
+								<i class="fas fa-play"></i>
+								<i class="fas fa-headphones"></i>
+								<i class="fas fa-ellipsis-h"></i>
+							</div>
+						</div>
+						<div class="item-singer">
+							<div class="info-item-singer">
+								<div class="count">5.</div>
+								<div class="name-singer">sự thật sau một lời hứa</div>
+							</div>
+							<div class="action-hover">
+								<i class="fas fa-play"></i>
+								<i class="fas fa-headphones"></i>
+								<i class="fas fa-ellipsis-h"></i>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 list-singer-right">
+						<div class="item-singer">
+							<div class="info-item-singer">
+								<div class="count">6.</div>
+								<div class="name-singer">Sao chẳng phải là anh</div>
+							</div>
+							<div class="action-hover">
+								<i class="fas fa-play"></i>
+								<i class="fas fa-headphones"></i>
+								<i class="fas fa-ellipsis-h"></i>
+							</div>
+						</div>
+						<div class="item-singer">
+							<div class="info-item-singer">
+								<div class="count">7.</div>
+								<div class="name-singer">có được không em</div>
+							</div>
+							<div class="action-hover">
+								<i class="fas fa-play"></i>
+								<i class="fas fa-headphones"></i>
+								<i class="fas fa-ellipsis-h"></i>
+							</div>
+						</div>
+						<div class="item-singer">
+							<div class="info-item-singer">
+								<div class="count">8.</div>
+								<div class="name-singer">không quan tâm</div>
+							</div>
+							<div class="action-hover">
+								<i class="fas fa-play"></i>
+								<i class="fas fa-headphones"></i>
+								<i class="fas fa-ellipsis-h"></i>
+							</div>
+						</div>
+						<div class="item-singer">
+							<div class="info-item-singer">
+								<div class="count">9.</div>
+								<div class="name-singer">người tôi yêu</div>
+							</div>
+							<div class="action-hover">
+								<i class="fas fa-play"></i>
+								<i class="fas fa-headphones"></i>
+								<i class="fas fa-ellipsis-h"></i>
+							</div>
+						</div>
+						<div class="item-singer">
+							<div class="info-item-singer">
+								<div class="count">10.</div>
+								<div class="name-singer">mất trí nhớ</div>
+							</div>
+							<div class="action-hover">
+								<i class="fas fa-play"></i>
+								<i class="fas fa-headphones"></i>
+								<i class="fas fa-ellipsis-h"></i>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row maint-zing-choise">
+			<div class="col-4">
+				<div class="row zing-choise">
+					<div class=" content">
+						<div class="image-zing-choise">
+							<img src="./images/album/huongtram.jpg">
+						</div>
+						<div class="action">
+							<i class="fas fa-heart add-library"></i>
+							<i class="fas fa-play play"></i>
+							<i class="fas fa-ellipsis-h extend"></i>
+						</div>
+					</div>
+					<div class=" info-zing-choise">
+						<div class="title-zing-choise">góc nhạc của <br> hương tràm</div>
+						<div class="count-singer">30 bài hát</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-8">
+				<div class="row list-singer">
+					<div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 list-singer-left">
+						<div class="item-singer">
+							<div class="info-item-singer">
+								<div class="count">1.</div>
+								<div class="name-singer">duyên mình lỡ</div>
+							</div>
+							<div class="action-hover">
+								<i class="fas fa-play"></i>
+								<i class="fas fa-headphones"></i>
+								<i class="fas fa-ellipsis-h"></i>
+							</div>
+						</div>
+						<div class="item-singer">
+							<div class="info-item-singer">
+								<div class="count">2.</div>
+								<div class="name-singer">em gái mưa</div>
+							</div>
+							<div class="action-hover">
+								<i class="fas fa-play"></i>
+								<i class="fas fa-headphones"></i>
+								<i class="fas fa-ellipsis-h"></i>
+							</div>
+						</div>
+						<div class="item-singer">
+							<div class="info-item-singer">
+								<div class="count">3.</div>
+								<div class="name-singer">ngốc 1</div>
+							</div>
+							<div class="action-hover">
+								<i class="fas fa-play"></i>
+								<i class="fas fa-headphones"></i>
+								<i class="fas fa-ellipsis-h"></i>
+							</div>
+						</div>
+						<div class="item-singer">
+							<div class="info-item-singer">
+								<div class="count">4.</div>
+								<div class="name-singer">ngốc 2</div>
+							</div>
+							<div class="action-hover">
+								<i class="fas fa-play"></i>
+								<i class="fas fa-headphones"></i>
+								<i class="fas fa-ellipsis-h"></i>
+							</div>
+						</div>
+						<div class="item-singer">
+							<div class="info-item-singer">
+								<div class="count">5.</div>
+								<div class="name-singer">gửi anh và cô ấy</div>
+							</div>
+							<div class="action-hover">
+								<i class="fas fa-play"></i>
+								<i class="fas fa-headphones"></i>
+								<i class="fas fa-ellipsis-h"></i>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 list-singer-right">
+						<div class="item-singer">
+							<div class="info-item-singer">
+								<div class="count">6.</div>
+								<div class="name-singer">Ta còn thuộc về nhau</div>
+							</div>
+							<div class="action-hover">
+								<i class="fas fa-play"></i>
+								<i class="fas fa-headphones"></i>
+								<i class="fas fa-ellipsis-h"></i>
+							</div>
+						</div>
+						<div class="item-singer">
+							<div class="info-item-singer">
+								<div class="count">7.</div>
+								<div class="name-singer">cánh hoa tàn</div>
+							</div>
+							<div class="action-hover">
+								<i class="fas fa-play"></i>
+								<i class="fas fa-headphones"></i>
+								<i class="fas fa-ellipsis-h"></i>
+							</div>
+						</div>
+						<div class="item-singer">
+							<div class="info-item-singer">
+								<div class="count">8.</div>
+								<div class="name-singer">người từng yêu anh</div>
+							</div>
+							<div class="action-hover">
+								<i class="fas fa-play"></i>
+								<i class="fas fa-headphones"></i>
+								<i class="fas fa-ellipsis-h"></i>
+							</div>
+						</div>
+						<div class="item-singer">
+							<div class="info-item-singer">
+								<div class="count">9.</div>
+								<div class="name-singer">cho em gần anh thêm chút nữa</div>
+							</div>
+							<div class="action-hover">
+								<i class="fas fa-play"></i>
+								<i class="fas fa-headphones"></i>
+								<i class="fas fa-ellipsis-h"></i>
+							</div>
+						</div>
+						<div class="item-singer">
+							<div class="info-item-singer">
+								<div class="count">10.</div>
+								<div class="name-singer">Ta là cho nhau</div>
+							</div>
+							<div class="action-hover">
+								<i class="fas fa-play"></i>
+								<i class="fas fa-headphones"></i>
+								<i class="fas fa-ellipsis-h"></i>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row maint-zing-choise">
+			<div class="col-4">
+				<div class="row zing-choise">
+					<div class=" content">
+						<div class="image-zing-choise">
+							<img src="./images/album/min.jpg">
+						</div>
+						<div class="action">
+							<i class="fas fa-heart add-library"></i>
+							<i class="fas fa-play play"></i>
+							<i class="fas fa-ellipsis-h extend"></i>
+						</div>
+					</div>
+					<div class=" info-zing-choise">
+						<div class="title-zing-choise">góc nhạc của min</div>
+						<div class="count-singer">30 bài hát</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-8">
+				<div class="row list-singer">
+					<div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 list-singer-left">
+						<div class="item-singer">
+							<div class="info-item-singer">
+								<div class="count">1.</div>
+								<div class="name-singer">Đừng yêu nữa em mệt rồi</div>
+							</div>
+							<div class="action-hover">
+								<i class="fas fa-play"></i>
+								<i class="fas fa-headphones"></i>
+								<i class="fas fa-ellipsis-h"></i>
+							</div>
+						</div>
+						<div class="item-singer">
+							<div class="info-item-singer">
+								<div class="count">2.</div>
+								<div class="name-singer">vì yêu cứ đâm đầu</div>
+							</div>
+							<div class="action-hover">
+								<i class="fas fa-play"></i>
+								<i class="fas fa-headphones"></i>
+								<i class="fas fa-ellipsis-h"></i>
+							</div>
+						</div>
+						<div class="item-singer">
+							<div class="info-item-singer">
+								<div class="count">3.</div>
+								<div class="name-singer">ghen</div>
+							</div>
+							<div class="action-hover">
+								<i class="fas fa-play"></i>
+								<i class="fas fa-headphones"></i>
+								<i class="fas fa-ellipsis-h"></i>
+							</div>
+						</div>
+						<div class="item-singer">
+							<div class="info-item-singer">
+								<div class="count">4.</div>
+								<div class="name-singer">có em chờ</div>
+							</div>
+							<div class="action-hover">
+								<i class="fas fa-play"></i>
+								<i class="fas fa-headphones"></i>
+								<i class="fas fa-ellipsis-h"></i>
+							</div>
+						</div>
+						<div class="item-singer">
+							<div class="info-item-singer">
+								<div class="count">5.</div>
+								<div class="name-singer">đừng xin lỗi nữa</div>
+							</div>
+							<div class="action-hover">
+								<i class="fas fa-play"></i>
+								<i class="fas fa-headphones"></i>
+								<i class="fas fa-ellipsis-h"></i>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 list-singer-right">
+						<div class="item-singer">
+							<div class="info-item-singer">
+								<div class="count">6.</div>
+								<div class="name-singer">người em tìm kiếm</div>
+							</div>
+							<div class="action-hover">
+								<i class="fas fa-play"></i>
+								<i class="fas fa-headphones"></i>
+								<i class="fas fa-ellipsis-h"></i>
+							</div>
+						</div>
+						<div class="item-singer">
+							<div class="info-item-singer">
+								<div class="count">7.</div>
+								<div class="name-singer">yêu</div>
+							</div>
+							<div class="action-hover">
+								<i class="fas fa-play"></i>
+								<i class="fas fa-headphones"></i>
+								<i class="fas fa-ellipsis-h"></i>
+							</div>
+						</div>
+						<div class="item-singer">
+							<div class="info-item-singer">
+								<div class="count">8.</div>
+								<div class="name-singer">Hôn anh</div>
+							</div>
+							<div class="action-hover">
+								<i class="fas fa-play"></i>
+								<i class="fas fa-headphones"></i>
+								<i class="fas fa-ellipsis-h"></i>
+							</div>
+						</div>
+						<div class="item-singer">
+							<div class="info-item-singer">
+								<div class="count">9.</div>
+								<div class="name-singer">chưa bao giờ mẹ kể</div>
+							</div>
+							<div class="action-hover">
+								<i class="fas fa-play"></i>
+								<i class="fas fa-headphones"></i>
+								<i class="fas fa-ellipsis-h"></i>
+							</div>
+						</div>
+						<div class="item-singer">
+							<div class="info-item-singer">
+								<div class="count">10.</div>
+								<div class="name-singer">tim</div>
+							</div>
+							<div class="action-hover">
+								<i class="fas fa-play"></i>
+								<i class="fas fa-headphones"></i>
+								<i class="fas fa-ellipsis-h"></i>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row maint-zing-choise">
+			<div class="col-4">
+				<div class="row zing-choise">
+					<div class=" content">
+						<div class="image-zing-choise">
+							<img src="./images/album/trinhthangbinh.jpg">
+						</div>
+						<div class="action">
+							<i class="fas fa-heart add-library"></i>
+							<i class="fas fa-play play"></i>
+							<i class="fas fa-ellipsis-h extend"></i>
+						</div>
+					</div>
+					<div class=" info-zing-choise">
+						<div class="title-zing-choise">Hit của <br> trịnh thăng bình</div>
+						<div class="count-singer">30 bài hát</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-8">
+				<div class="row list-singer">
+					<div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 list-singer-left">
+						<div class="item-singer">
+							<div class="info-item-singer">
+								<div class="count">1.</div>
+								<div class="name-singer">người ấy</div>
+							</div>
+							<div class="action-hover">
+								<i class="fas fa-play"></i>
+								<i class="fas fa-headphones"></i>
+								<i class="fas fa-ellipsis-h"></i>
+							</div>
+						</div>
+						<div class="item-singer">
+							<div class="info-item-singer">
+								<div class="count">2.</div>
+								<div class="name-singer">tâm sự tuổi 30</div>
+							</div>
+							<div class="action-hover">
+								<i class="fas fa-play"></i>
+								<i class="fas fa-headphones"></i>
+								<i class="fas fa-ellipsis-h"></i>
+							</div>
+						</div>
+						<div class="item-singer">
+							<div class="info-item-singer">
+								<div class="count">3.</div>
+								<div class="name-singer">cho anh xin thêm một phút</div>
+							</div>
+							<div class="action-hover">
+								<i class="fas fa-play"></i>
+								<i class="fas fa-headphones"></i>
+								<i class="fas fa-ellipsis-h"></i>
+							</div>
+						</div>
+						
+						<div class="item-singer">
+							<div class="info-item-singer">
+								<div class="count">4.</div>
+								<div class="name-singer">đến cuối cùng</div>
+							</div>
+							<div class="action-hover">
+								<i class="fas fa-play"></i>
+								<i class="fas fa-headphones"></i>
+								<i class="fas fa-ellipsis-h"></i>
+							</div>
+						</div>
+						<div class="item-singer">
+							<div class="info-item-singer">
+								<div class="count">5.</div>
+								<div class="name-singer">anh sẽ đến</div>
+							</div>
+							<div class="action-hover">
+								<i class="fas fa-play"></i>
+								<i class="fas fa-headphones"></i>
+								<i class="fas fa-ellipsis-h"></i>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 list-singer-right">
+						<div class="item-singer">
+							<div class="info-item-singer">
+								<div class="count">6.</div>
+								<div class="name-singer">vỡ tan</div>
+							</div>
+							<div class="action-hover">
+								<i class="fas fa-play"></i>
+								<i class="fas fa-headphones"></i>
+								<i class="fas fa-ellipsis-h"></i>
+							</div>
+						</div>
+						<div class="item-singer">
+							<div class="info-item-singer">
+								<div class="count">7.</div>
+								<div class="name-singer">đã biết sẽ có ngày chia tay</div>
+							</div>
+							<div class="action-hover">
+								<i class="fas fa-play"></i>
+								<i class="fas fa-headphones"></i>
+								<i class="fas fa-ellipsis-h"></i>
+							</div>
+						</div>
+						<div class="item-singer">
+							<div class="info-item-singer">
+								<div class="count">8.</div>
+								<div class="name-singer">lời chưa nói</div>
+							</div>
+							<div class="action-hover">
+								<i class="fas fa-play"></i>
+								<i class="fas fa-headphones"></i>
+								<i class="fas fa-ellipsis-h"></i>
+							</div>
+						</div>
+						<div class="item-singer">
+							<div class="info-item-singer">
+								<div class="count">9.</div>
+								<div class="name-singer">em ngủ chưa</div>
+							</div>
+							<div class="action-hover">
+								<i class="fas fa-play"></i>
+								<i class="fas fa-headphones"></i>
+								<i class="fas fa-ellipsis-h"></i>
+							</div>
+						</div>
+						<div class="item-singer">
+							<div class="info-item-singer">
+								<div class="count">10.</div>
+								<div class="name-singer">không sao đâu</div>
+							</div>
+							<div class="action-hover">
+								<i class="fas fa-play"></i>
+								<i class="fas fa-headphones"></i>
+								<i class="fas fa-ellipsis-h"></i>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- footer -->
+	<div class="container space">
+		<hr class="hr-footer">
+		<div class="row">
+			<div class="col-12 logo">
+				<img src="./images/logo/zing-mp3.png" alt="">
+				<div class="info-logo">Một sản phẩm của Zalo</div>
+			</div>
+			<div class="col-12 list-infomation">
+				<ul>
+					<li>Giới thiệu</li>
+					<li>Liên hệ</li>
+					<li>Quảng cáo</li>
+					<li>Góp ý</li>
+					<li>Thỏa thuận sử dụng</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!-- end footer -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<script type="text/javascript" src="./action-slide.js"></script>
+	<script type="text/javascript">
+		var slideIndex=0;
+		var arrTitle = ['newSinger','chinaSinger','koreaSinger','US-UKSinger','XaStress','top100','guita'];
+		showDivMain(slideIndex);
+		for (var i of arrTitle){
+			showDiv(slideIndex,i);
+			autoActionSlide(i);
+		}
+	</script>
+</body>
+</html>

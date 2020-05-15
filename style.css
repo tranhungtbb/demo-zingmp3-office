@@ -1,0 +1,118 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: "Roboto",sans-serif;
+	text-transform: capitalize;
+}
+
+.container .space{
+	margin-top: 20px;
+}
+.item-new-song{
+	padding: 5px;
+	display: flex;
+	width: 100%;
+	height: 55px;
+	border-radius: 10px;
+	background-color: transparent;
+	margin:  5px;
+	position: relative;
+}
+.image-new-song{
+	flex-basis: 50px;
+}
+.image-new-song img{
+	width: 45px;
+	height: 45px;
+	border-radius: 5px;
+}
+.info{
+	padding: 2px 4px 8px 8px;
+	flex-basis: 200px;
+	flex-grow: 1;
+
+}
+.info div.name-of-thesong{
+	font-size: 80%;
+	font-weight: bold;
+	
+}
+.singer{
+	font-size: 12px;
+	color: #AAA;
+}
+.action-hover{
+	display: flex;
+	cursor: pointer;
+	width: 100%;
+	height: 55px;
+	position: absolute;
+	top : 0px;
+	right: 0px;
+	opacity: 0;
+	transition: all 0.4s ease-out;
+}
+.action-hover i{
+	text-align: center;
+	color: #111;
+	height: 55px;
+	padding-top:15px;
+	background-color: transparent;
+}
+.action-hover .fa-play{
+	min-width: 55px;
+}
+.action-hover .fa-headphones{
+	margin-left: auto;
+}
+.action-hover .fa-ellipsis-h{
+	min-width: 30px;
+}
+
+.item-new-song:hover .action-hover{
+	opacity: 1;
+}
+.item-new-song:hover .image-new-song{
+	opacity: 0.5;
+}
+.item-new-song:hover{
+	background-color: #DDD;
+}
+
+/*styde footer*/
+.hr-footer{
+	margin-top: 40px;
+}
+.logo{
+	display: flex;
+	height: 50px;
+	justify-content: center;
+	margin-top: 50px;
+}
+.logo img{
+	width: 50px;
+}
+.logo .info-logo{
+	font-size: 14px;
+	padding-top: 10px;
+	color: #AAA;
+	margin-left: 15px;
+	text-transform: none;
+	font-weight: 400;
+}
+.list-infomation{
+	margin: 20px 0px 30px 0px;
+}
+.list-infomation ul{
+	display: flex;
+	justify-content: center;
+}
+.list-infomation ul li{
+	margin-left: 20px;
+	color: #AAA;
+	font-size: 14px;
+	text-transform: none;
+	font-weight: 400;
+}

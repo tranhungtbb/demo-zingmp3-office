@@ -1,0 +1,149 @@
+
+.top-bar{
+	height: 50px;
+	width: 100%;
+	display: flex;
+	position: relative;
+	background-color: #eee;
+}
+.logo-header{
+	width: 155px;
+	height: 50px;
+	background-image: url('./images/logo/logo-zing.png');
+	background-size: 160px 50px;
+}
+.search-bar{
+	display: flex;
+	border: 1px solid #888;
+	border-radius: 40px;
+	flex-grow: 1;
+	height: 40px;
+	color: #888;
+	margin: 5px 250px 0px 50px;
+}
+.search-bar i{
+	padding: 10px 0px 0px 10px;
+	font-size: 20px;
+}
+.search-bar input{
+	background-color: transparent;
+	border: none;
+	width: 100%;
+	margin-left: 10px;
+}
+input:focus,input:active{
+	outline-style: none; 
+}
+.user-profile{
+	display: flex;
+	padding-top: 3px;
+	position: absolute;
+	top: 0px;
+	right: 5px;
+}
+.user-profile img{
+	width: 40px;
+	height: 40px;
+	border-radius: 100%;
+}
+.user-info{
+	flex-grow: 1;
+	padding-left: 5px;
+}
+.user-info .user-name{
+	font-weight: 500;
+	font-size: 14px;
+	color: #888;
+}
+.user-info .user-category{
+	font-size: 12px;
+	color: #aaa;
+}
+/*styde menu*/
+
+.menu-bar{
+	text-transform:uppercase;
+	height: 35px;
+	width: 100%;
+	background-color: #eee;
+}
+.menu-bar ul{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 0px;
+}
+.menu-bar ul li{
+	list-style: none;
+	padding: 5px 15px 5px 0px;
+	position: relative;
+}
+.menu-bar ul li a{
+	text-decoration: none;
+	font-weight: 500;
+	color: #111;
+}
+.menu-bar ul li a:hover{
+	color: #7833e7;
+}
+.sub-menu{
+	display: none;
+	position: absolute;
+	top: 35px;
+	left: 0px;
+	border-radius: 10px;
+	background-color: #fcfcfc;
+	color: #DDD;
+	box-shadow: 2px 2px 2px #eee;
+	font-size: 13px;
+}
+.menu-bar ul > li:hover .sub-menu{
+	display: flex;
+}
+.sub-menu .sub-menu-item{
+	display: block;
+	width: 200px;
+	text-transform: capitalize;
+}
+.sub-menu-item .title-sub-menu{
+	text-transform: uppercase;
+	color: #111;
+	font-weight: 500;
+
+}
+.sub-menu > ul{
+	margin-left: 10px;
+}
+.sub-menu > ul > li >a{
+	color: #666;
+}
+.sub-menu > ul > li{
+	margin: 0px;
+}
+
+@media screen and (max-width: 900px){
+	.menu-bar ul{
+		font-size: 13px;
+	}
+	.user-profile img{
+		width: 35px;
+		height: 35px;
+		margin-top: 2px 0px 0px 5px;
+	}
+}
+@media screen and (max-width: 900px){
+	.menu-bar ul{
+		font-size: 12px;
+	}
+	.user-profile img{
+		width: 35px;
+		height: 35px;
+		margin: 2px 0px 0px 5px;
+	}
+	.search-bar{
+		margin: 5px 50px 0px 10px;
+	}
+	.user-info,.hide{
+		display: none;
+	}
+}
